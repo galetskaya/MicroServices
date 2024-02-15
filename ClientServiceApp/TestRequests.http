@@ -1,0 +1,44 @@
+### Удалить клиента по id
+DELETE http://localhost:8080/v1/clients/4
+Accept: application/json
+
+### Получить клиента по id
+GET http://localhost:8080/v1/clients/3
+Accept: application/json
+
+### Изменить клиента по id
+PUT http://localhost:8080/v1/clients/2
+Content-Type: application/json
+
+{
+  "name": "Olga",
+  "email": "fgrrr1@asd",
+  "phone": "11123432",
+  "gender": "FEMALE"
+}
+
+### Получить список всех клиентов
+GET http://localhost:8080/v1/clients
+Accept: application/json
+
+### Создать клиента
+POST http://localhost:8080/v1/clients
+Content-Type: application/json
+
+{
+  "name": "Petya",
+  "email": "234asdf21@asd",
+  "phone": "12sadf432",
+  "gender": "MALE"
+}
+
+### Создать клиента
+POST http://localhost:8080/v1/clients
+Content-Type: application/json
+
+{
+  "name": "Olga",
+  "email": "fgrrr1@asd",
+  "phone": "11123432",
+  "gender": "FEMALE"
+}
